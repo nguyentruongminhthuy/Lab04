@@ -1,0 +1,88 @@
+/*
+filename: lab04.css
+author: Nguyen Truong Minh Thuy
+created: 08/10/2026
+last modified: 08/10/2026
+description: Stylesheet for lab04.html
+*/
+
+/* STEP 3: Create a CSS Rule */
+h1 { 
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+
+/* STEP 4: Element Selectors */
+* { 
+    font-family: Calibri, sans-serif; 
+    color: #2F4F4F;
+}
+
+h2 {
+    color: rgb(0, 128, 128);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* STEP 4: Group Selectors */
+aside, footer { 
+    font-style: italic; 
+}
+
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+/* STEP 4: ID Selectors */
+#images {
+    text-align: left;
+}
+
+#heading-style {
+    color: red;
+}
+
+/* STEP 4: Class Selectors */
+.special {
+    color: darkorange;
+    font-weight: bold;
+}
+
+.right-align {
+    text-align: right;
+}
+
+/* STEP 4: Contextual Selectors */
+nav a {
+    text-decoration: none;
+    padding: 0.2em 0.6em;
+    border: 4px solid #ccc;
+}
+
+ol ul {
+    list-style-type: square;
+}
+
+/* STEP 4: Pseudo-classes */
+aside:hover {
+    display: none;
+}
+
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
+/* STEP 5: Class/ID or Element Selectors */
+article {
+    border-left: 5px solid lightblue;
+    padding-left: 15px;
+}
+footer {
+    text-align: right;
+    font-style: italic;
+}
